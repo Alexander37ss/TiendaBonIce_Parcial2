@@ -56,8 +56,8 @@
                             <td><?php echo $row["breve_descripcion"]; ?></td>
                             <td>
                                 <div class="btn-group" role="group" aria-label="Basic example">
-                                    <button href="" type="button" class="btn btn-info">Editar</button>
-                                    <button href="" type="button" class="btn btn-dark">Eliminar</button>
+                                    <a href="actualizarRegistro.php?id=<?php echo $row["id"]; ?>" type="button" class="btn btn-info">Editar</a>
+                                    <a href="eliminarRegistro.php?id=<?php echo $row["id"]; ?>" type="button" class="btn btn-dark">Eliminar</a>                            
                                 </div>
                             </td>
                         </tr>
