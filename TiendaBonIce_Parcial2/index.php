@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css" type="text/css">
     <title>BonIce</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery-3.6.1.js"></script>
@@ -16,11 +15,11 @@
 </style>
 <body class="fondo">
     <?php include 'menu.php'; ?>
-    <br>
-    <div class="container">
+    <br><br><br><br><br><br><br><br>
+    <div class="container ">
         <div class="row">
             <div class="col-12">
-                <div class="jumbotron">
+                <div class="jumbotron ">
                     <h1 class="display-4">Encuentra tus BonIce favoritos</h1>
                     <p class="lead">
                         El rincon donde podras comprar BonIce:
@@ -38,7 +37,7 @@
         </div>
     </div>
     <footer class="text-center">
-        <hr>
+        <br><br><br><br><br><br>    
         2022 &copy; Cetis107 BonIce
     </footer>
     <script src="js/bootstrap.js"></script>
