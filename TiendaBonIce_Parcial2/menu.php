@@ -4,7 +4,7 @@
       <h5 class="text-white h4"><a class="navbar-brand" href="index.php"><img src="img/pinguino.png" alt="" width="75px"></a></h5>
             <span class="text-muted">
                     <a class="text-white h4" href="index.php">Inicio</a><br>
-                    <a class="text-white h4" href="#">Registrar</a><br>
+                    <a class="text-white h4" href="registrarBonIce.php">Registrar</a><br>
                     <a class="text-white h4" href="consultarDatos.php">Consultar</a>
             </span>
     </div>
