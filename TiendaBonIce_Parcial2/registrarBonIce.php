@@ -16,7 +16,7 @@
 <body class="fondo">
     <?php include 'menu.php'; ?>
     <br><br><br>
-    <div class="container bg-warning ">
+    <div class="container bg-light ">
         <div class="row">
             <div class="col-12">
                 <h1>Registrar Usuario</h1><hr>

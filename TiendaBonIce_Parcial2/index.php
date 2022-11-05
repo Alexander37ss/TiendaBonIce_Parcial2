@@ -21,7 +21,11 @@
             <div class="col-12">
                 <div class="jumbotron ">
                     <h1 class="display-4">Encuentra tus BonIce favoritos</h1>
-                    <p class="lead">
+                    <div>
+                        <div class="text-center">
+                            <img src="img/vendedor.jpg" style="float: right"  width="250px" class="img-thumbnail">
+                        </div>
+                        <p class="lead">
                         El rincon donde podras comprar BonIce:
                          <ul>
                             <li>Ver catalogo</li>
@@ -30,6 +34,7 @@
                             <li>Eliminar productos</li>
                          </ul>
                     </p>
+                        </div>
                     <hr class="my-4">
                     <p>PROYECTO PARCIAL 2</p>
                   </div>
