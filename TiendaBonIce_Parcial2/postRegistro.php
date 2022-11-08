@@ -12,8 +12,8 @@
 <div class="card text-center">
   <div class="card-body">
     <h5 class="card-title">Registro guardado con Éxito</h5>
-    <a href="consultarDatos.php" class="btn btn-primary">Regresar</a>
-    <a href="registrarBonIce.php" class="btn btn-primary">Crear otro registro</a>
+    <a href="consultarDatos.php" class="btn btn-danger">Regresar</a>
+    <a href="registrarBonIce.php" class="btn btn-info">Crear otro registro</a>
   </div>
   <div class="card-footer text-muted">
     2022 &copy; Cetis107 BonIce

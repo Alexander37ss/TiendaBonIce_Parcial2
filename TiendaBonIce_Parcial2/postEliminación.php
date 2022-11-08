@@ -17,7 +17,7 @@
 <div class="card text-center">
   <div class="card-body">
     <h5 class="card-title">Registro <?php echo "$id"; ?> Eliminado</h5>
-    <a href="consultarDatos.php" class="btn btn-primary">Regresar</a>
+    <a href="consultarDatos.php" class="btn btn-danger">Regresar</a>
   </div>
 </div>
     <script src="js/bootstrap.js"></script>

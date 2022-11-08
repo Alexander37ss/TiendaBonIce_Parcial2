@@ -19,7 +19,7 @@
     <div class="container ">
         <div class="row">
             <div class="col-12">
-                <div class="jumbotron ">
+                <div class="jumbotron bg-dark text-light">
                     <h1 class="display-4">Encuentra tus BonIce favoritos</h1>
                     <div>
                         <div class="text-center">
@@ -33,7 +33,7 @@
                             <li>Editar productos</li>
                             <li>Eliminar productos</li>
                          </ul>
-                    </p>
+                        </p>
                         </div>
                     <hr class="my-4">
                     <p>PROYECTO PARCIAL 2</p>

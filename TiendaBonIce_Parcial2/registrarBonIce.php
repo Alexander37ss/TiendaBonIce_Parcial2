@@ -46,7 +46,7 @@
                         <textarea name="breve_descripcion" cols="30" rows="10" class="form-control"></textarea>
                     </div>
                     <div>
-                        <input type="submit" class="btn btn-info" value="Registrar">
+                        <input type="submit" class="btn btn-danger" value="Registrar">
                     </div>
                     <br>
                 </form>

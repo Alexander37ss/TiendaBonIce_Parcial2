@@ -48,8 +48,8 @@
                       <?php if($datos->num_rows > 0) { 
                           while($row = $datos->fetch_assoc()) {
                       ?>
-                        <tr class="bg-warning">
-                            <td class="bg-secondary text-white"><?php echo $row["id"]; ?></td>
+                        <tr class="bg-light">
+                            <td class="bg-danger text-white"><?php echo $row["id"]; ?></td>
                             <td><?php echo $row["nombre_producto"]; ?></td>
                             <td><?php echo $row["sabor"]; ?></td>
                             <td><?php echo $row["precio"]; ?></td>
@@ -57,7 +57,7 @@
                             <td>
                                 <div class="btn-group" role="group" aria-label="Basic example">
                                     <a href="actualizarRegistro.php?id=<?php echo $row["id"]; ?>" type="button" class="btn btn-info">Editar</a>
-                                    <a href="eliminarRegistro.php?id=<?php echo $row["id"]; ?>" type="button" class="btn btn-dark">Eliminar</a>                            
+                                    <a href="eliminarRegistro.php?id=<?php echo $row["id"]; ?>" type="button" class="btn btn-danger">Eliminar</a>                            
                                 </div>
                             </td>
                         </tr>
