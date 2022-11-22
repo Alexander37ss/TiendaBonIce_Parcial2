@@ -48,8 +48,10 @@
                                     <div class="input-group-text">$</div>
                                 </div>
                                 <input value="<?php echo $registro["precio"]; ?>" name="precio" type="number" class="form-control" id="inlineFormInputGroup">
-                                <input type="file" name="file1">
                             </div>
+                        </div>
+                        <div class="col-auto">
+                            <input type="file" name="file1">
                         </div>
                     </div>
 

@@ -37,8 +37,11 @@
                                     <div class="input-group-text">$</div>
                                 </div>
                                 <input name="precio" type="number" class="form-control" id="inlineFormInputGroup" placeholder="Precio">
-                                <input type="file" name="file1">
+                                
                             </div>
+                        </div>
+                        <div class="col-auto">
+                            <input type="file" name="file1">
                         </div>
                     </div>
                     
