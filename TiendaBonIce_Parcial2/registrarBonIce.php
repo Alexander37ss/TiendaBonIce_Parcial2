@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-12">
                 <h1>Registrar Usuario</h1><hr>
-                <form method="post" action="guardarDatosBonIce.php">
+                <form method="post" action="guardarDatosBonIce.php" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="">Nombre:</label>
                         <input type="text" class="form-control" name="nombre_producto" placeholder="Teclea el nombre del producto">
@@ -37,6 +37,7 @@
                                     <div class="input-group-text">$</div>
                                 </div>
                                 <input name="precio" type="number" class="form-control" id="inlineFormInputGroup" placeholder="Precio">
+                                <input type="file" name="file1">
                             </div>
                         </div>
                     </div>
