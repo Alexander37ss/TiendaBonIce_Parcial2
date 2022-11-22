@@ -41,6 +41,7 @@
                             <th>Sabor</th>
                             <th>Precio</th>
                             <th>Breve Descripción</th>
+                            <th>imagen</th>
                             <th>Editar</th>
                         </tr>
                     </thead>
@@ -54,6 +55,7 @@
                             <td><?php echo $row["sabor"]; ?></td>
                             <td><?php echo $row["precio"]; ?></td>
                             <td><?php echo $row["breve_descripcion"]; ?></td>
+                            <td><?php echo "<img src='".$row['imagen']."' width='50' >"; ?></td>
                             <td>
                                 <div class="btn-group" role="group" aria-label="Basic example">
                                     <a href="actualizarRegistro.php?id=<?php echo $row["id"]; ?>" type="button" class="btn btn-info">Editar</a>

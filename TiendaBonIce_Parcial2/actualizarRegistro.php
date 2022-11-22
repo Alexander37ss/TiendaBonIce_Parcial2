@@ -28,7 +28,7 @@
         <div class="row">
             <div class="col-12">
                 <h1>Actualizar Registro</h1><hr>
-                <form method="post" action="guardarRegistro.php">
+                <form method="post" action="guardarRegistro.php" enctype="multipart/form-data">
 
                     <input name="id" type="hidden" value="<?php echo $registro["id"]; ?>">
 
@@ -48,6 +48,7 @@
                                     <div class="input-group-text">$</div>
                                 </div>
                                 <input value="<?php echo $registro["precio"]; ?>" name="precio" type="number" class="form-control" id="inlineFormInputGroup">
+                                <input type="file" name="file1">
                             </div>
                         </div>
                     </div>
@@ -56,6 +57,7 @@
                         <label for="">Breve descripción:</label>
                         <textarea class="form-control" name="breve_descripcion" rows="10" ><?php echo $registro["breve_descripcion"]; ?></textarea>
                     </div>
+
 
                     <div>
                         <input type="submit" class="btn btn-info" value="   Actualizar   ">
