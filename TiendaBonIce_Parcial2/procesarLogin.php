@@ -19,7 +19,7 @@
 		else
 		{
 			echo '<script>';
-				echo 'window.location.href="login.php";';
+				echo 'window.location.href="index.php";';
 			echo '</script>';
 		}
 	}
