@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-11-2022 a las 18:58:13
+-- Tiempo de generación: 23-11-2022 a las 19:44:17
 -- Versión del servidor: 10.4.25-MariaDB
 -- Versión de PHP: 8.1.10
 
@@ -52,20 +52,18 @@ INSERT INTO `productos` (`id`, `nombre_producto`, `sabor`, `precio`, `breve_desc
 
 CREATE TABLE `usuarios` (
   `id_usuario` int(11) NOT NULL,
-  `nombre` varchar(255) NOT NULL,
+  `correo` varchar(255) NOT NULL,
   `usuario` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `tipo_usuario` varchar(255) NOT NULL,
-  `status` varchar(255) NOT NULL
+  `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`id_usuario`, `nombre`, `usuario`, `password`, `tipo_usuario`, `status`) VALUES
-(1, 'USUARIO 1', 'admin', 'admin', 'ADMINISTRADOR', 'ACTIVO'),
-(2, 'USUARIO 2', 'hola', 'hola', 'COMPRADOR', 'ACTIVO');
+INSERT INTO `usuarios` (`id_usuario`, `correo`, `usuario`, `password`) VALUES
+(1, 'usuario1@gmail.com', 'admin', 'admin'),
+(2, 'usuario2@hotmail.com', 'hola', 'hola');
 
 --
 -- Índices para tablas volcadas
@@ -97,7 +95,7 @@ ALTER TABLE `productos`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

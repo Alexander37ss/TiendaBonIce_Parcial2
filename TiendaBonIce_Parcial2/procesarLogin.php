@@ -5,7 +5,7 @@
 	{
 		include 'conexionConBD.php';
 		$sentencia= "SELECT * FROM usuarios 
-        WHERE usuario='".$usuario."' AND password='".$password."'  ";
+        WHERE usuario='".$usuario."' AND password='".$password."' OR  correo='".$usuario."' AND password='".$password."'";
 		$resultado=$conexion->query($sentencia);
 
 		$count = mysqli_num_rows($resultado); //Numero de filas del resultado de la consulta
@@ -21,7 +21,7 @@
 		{
 			echo '<script>';
 				echo 'alert("Datos de acceso incorrectos");';
-				echo 'window.location.href="index.php";';
+				echo 'window.location.href="login.php";';
 			echo '</script>';
 		}
 	}

@@ -14,7 +14,7 @@
                 <h2>Iniciar sesion</h2>
                 <br><br>
                 <br><br>
-                <label for="inputEmail" >Nombre usuario</label>
+                <label for="inputEmail" >Nombre usuario O Correo</label>
                 <br>
                 <input type="text" name="inputUsuario"  placeholder="Nombre de usuario" required autofocus>
                 
@@ -27,6 +27,7 @@
                 <button type="submit">  Iniciar sesión  </button>
                 <br><br>
             </form>
+            <a href="nuevo_usuario.php"><button type="button">Nuevo usuario</button></a>
         </div>
     </div>
 </body>
