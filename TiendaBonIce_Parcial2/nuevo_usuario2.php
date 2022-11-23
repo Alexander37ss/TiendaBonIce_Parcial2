@@ -11,7 +11,6 @@
         $conexion->query($sentencia);
 
         echo '<script>';
-            echo 'window.location.href="index2.php";';
-            echo 'alert("Usuario creado");';
+            echo 'window.location.href="entro/index.php";';
         echo '</script>';
     }

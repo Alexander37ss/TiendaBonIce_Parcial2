@@ -13,14 +13,12 @@
 		if($count > 0) //si la variable count es mayor a 0
 		{
 			echo '<script>';
-				echo 'alert("Bienvenido!!");';
-				echo 'window.location.href="index2.php";';
+				echo 'window.location.href="entro/index.php";';
 			echo '</script>';
 		}
 		else
 		{
 			echo '<script>';
-				echo 'alert("Datos de acceso incorrectos");';
 				echo 'window.location.href="login.php";';
 			echo '</script>';
 		}
