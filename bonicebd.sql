@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-11-2022 a las 21:41:12
+-- Tiempo de generación: 23-11-2022 a las 18:58:13
 -- Versión del servidor: 10.4.25-MariaDB
 -- Versión de PHP: 8.1.10
 
@@ -44,6 +44,29 @@ INSERT INTO `productos` (`id`, `nombre_producto`, `sabor`, `precio`, `breve_desc
 (1, 'Helado Rojo ', 'Fresa', 35, 'Helado sabor fresa', 'img/heladorojo.jpg'),
 (2, 'Helado morado', 'mora', 45, 'Helado sabor mora', 'img/heladomorado.jpg');
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuarios`
+--
+
+CREATE TABLE `usuarios` (
+  `id_usuario` int(11) NOT NULL,
+  `nombre` varchar(255) NOT NULL,
+  `usuario` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `tipo_usuario` varchar(255) NOT NULL,
+  `status` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `usuarios`
+--
+
+INSERT INTO `usuarios` (`id_usuario`, `nombre`, `usuario`, `password`, `tipo_usuario`, `status`) VALUES
+(1, 'USUARIO 1', 'admin', 'admin', 'ADMINISTRADOR', 'ACTIVO'),
+(2, 'USUARIO 2', 'hola', 'hola', 'COMPRADOR', 'ACTIVO');
+
 --
 -- Índices para tablas volcadas
 --
@@ -55,6 +78,12 @@ ALTER TABLE `productos`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indices de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`id_usuario`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -62,7 +91,13 @@ ALTER TABLE `productos`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
