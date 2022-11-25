@@ -24,7 +24,7 @@
        </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="../index.php">Salir <span class="sr-only"></span></a>
+        <a class="nav-link" href="exit.php">Salir <span class="sr-only"></span></a>
       </li>
 
     </ul>

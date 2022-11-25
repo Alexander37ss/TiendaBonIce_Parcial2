@@ -5,8 +5,8 @@
     function NuevoUsuario($correo, $usuario, $contrasena){
         include 'conexionConBD.php';
 
-        $sentencia="INSERT INTO usuarios (correo, usuario, password) 
-        VALUES('".$correo."','".$usuario."','".$contrasena."')   ";
+        $sentencia="INSERT INTO usuarios (correo, usuario, password, estado) 
+        VALUES('".$correo."','".$usuario."','".$contrasena."','activo') ";
 
         $conexion->query($sentencia);
 

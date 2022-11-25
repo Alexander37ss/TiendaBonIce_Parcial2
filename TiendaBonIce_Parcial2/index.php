@@ -21,14 +21,17 @@
                 <br><br>
                 <label for="inputPassword" >Contraseña</label>
                 <br>
-                <input type="password" name="inputPassword" placeholder="Contraseña" required>
+                <input type="text" name="inputPassword" placeholder="Contraseña" required>
 
                 <br><br>
                 <button type="submit">  Iniciar sesión  </button>
                 <br><br>
             </form>
             <a href="nuevo_usuario.php"><button type="button">Nuevo usuario</button></a>
+            <br><br><br><br>  
         </div>
     </div>
+
+
 </body>
 </html>

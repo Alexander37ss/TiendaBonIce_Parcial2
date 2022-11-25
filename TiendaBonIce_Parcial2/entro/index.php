@@ -1,3 +1,6 @@
+
+<?php include '../cerrarSesion.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
