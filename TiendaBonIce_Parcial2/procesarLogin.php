@@ -1,4 +1,6 @@
 <?php
+	session_start();
+	
 	ConsultarUsuario($_POST['inputUsuario'], $_POST['inputPassword']);
 
 	function ConsultarUsuario($usuario, $password)
@@ -10,19 +12,24 @@
 
 		$count = mysqli_num_rows($resultado); //Numero de filas del resultado de la consulta
 
+		$estado1= "SELECT estado FROM usuarios WHERE usuario='".$usuario."' AND password='".$password."' OR  correo='".$usuario."' AND password='".$password."'";
+		$estado2=$conexion->query($estado1);
+		
 		if($count > 0) //si la variable count es mayor a 0
 		{
+
+			$estado='activo';
+			$_SESSION['estado']=$estado;
 			echo '<script>';
-				echo 'alert("Bienvenido!!");';
-				echo 'window.location.href="index2.php";';
+				echo 'window.location.href="entro/index.php";';
 			echo '</script>';
 		}
 		else
 		{
 			echo '<script>';
-				echo 'alert("Datos de acceso incorrectos");';
-				echo 'window.location.href="login.php";';
+				echo 'window.location.href="index.php";';
 			echo '</script>';
 		}
 	}
 ?>
+

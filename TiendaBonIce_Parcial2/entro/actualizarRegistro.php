@@ -16,7 +16,7 @@
 <body class="fondo">
     <?php
     #Falta
-        include 'conexionConBD.php';
+        include '../conexionConBD.php';
         $id = $_GET["id"];
         $sql = "SELECT * FROM productos WHERE id=" . $id;
         $resultado = $conexion->query($sql);

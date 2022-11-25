@@ -1,5 +1,5 @@
 <nav class="navbar navbar-dark bg-dark">
-  <a class="navbar-brand" href="index2.php"><img src="img/pinguino.png" alt="" width="75px"></a>
+  <a class="navbar-brand" href="index.php"><img src="img/pinguino.png" alt="" width="75px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -11,7 +11,7 @@
     <ul class="navbar-nav mr-auto">
 
       <li class="nav-item">
-        <a class="nav-link" href="index2.php">Inicio <span class="sr-only"></span></a>
+        <a class="nav-link" href="index.php">Inicio <span class="sr-only"></span></a>
       </li>
       
       <li class="nav-item">
@@ -24,7 +24,7 @@
        </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="login.php">Salir <span class="sr-only"></span></a>
+        <a class="nav-link" href="exit.php">Salir <span class="sr-only"></span></a>
       </li>
 
     </ul>
